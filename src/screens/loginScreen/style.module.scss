@@ -1,0 +1,48 @@
+@import "../../styles/global.scss";
+
+.container {
+	display: flex;
+	height: 100vh;
+
+	a {
+		position: absolute;
+		img {
+			padding-top: 2rem;
+			padding-left: 2rem;
+		}
+	}
+
+	.leftSide {
+		width: 66.6%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 4rem;
+
+		.leftContent {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 2rem;
+			align-items: center;
+			img {
+				box-sizing: border-box;
+				max-width: 100%;
+				height: auto;
+				vertical-align: middle;
+				object-fit: contain;
+			}
+		}
+	}
+
+	.rightSide {
+		width: 33.3%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		* {
+			color: $text-color;
+		}
+	}
+}
